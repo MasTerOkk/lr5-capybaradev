@@ -16,7 +16,7 @@
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   generateRandomArray: () => (/* binding */ generateRandomArray),\n/* harmony export */   generateRandomMatrix: () => (/* binding */ generateRandomMatrix)\n/* harmony export */ });\nfunction generateRandomArray(length = 10, min = 0, max = 100) {\r\n    return Array.from({ length }, () => Math.random() * (max - min) + min);\r\n}\r\n\r\nfunction generateRandomMatrix(rows = 3, cols = 3, min = 0, max = 100) {\r\n    return Array.from({ length: rows }, () => generateRandomArray(cols, min, max));\r\n}\r\n\r\nconsole.log(generateRandomArray());\r\n\r\nconsole.log(generateRandomMatrix());\n\n//# sourceURL=webpack://lr5-capybaradev/./assets/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   generateRandomArray: () => (/* binding */ generateRandomArray),\n/* harmony export */   generateRandomMatrix: () => (/* binding */ generateRandomMatrix)\n/* harmony export */ });\nfunction generateRandomArray(length = 10, min = 0, max = 100) {\r\n    return Array.from({ length }, () => Math.random() * (max - min) + min);\r\n}\r\n\r\nfunction generateRandomMatrix(rows = 3, cols = 3, min = 0, max = 100) {\r\n    return Array.from({ length: rows }, () => generateRandomArray(cols, min, max));\r\n}\n\n//# sourceURL=webpack://lr5-capybaradev/./assets/js/index.js?");
 
 /***/ })
 
