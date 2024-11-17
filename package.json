@@ -1,0 +1,32 @@
+{
+  "name": "lr5-capybaradev",
+  "version": "1.0.1",
+  "description": "A utility library for generating random arrays and matrices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "author": "Evdokimov David",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CapybaraDev/lr5-capybaradev.git"
+  },
+  "keywords": [
+    "random",
+    "array",
+    "matrix",
+    "utility",
+    "javascript"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "lr5-capybaradev": "file:"
+  },
+  "devDependencies": {
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
