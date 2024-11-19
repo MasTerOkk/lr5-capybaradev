@@ -5,3 +5,7 @@ export function generateRandomArray(length = 10, min = 0, max = 100) {
 export function generateRandomMatrix(rows = 3, cols = 3, min = 0, max = 100) {
     return Array.from({ length: rows }, () => generateRandomArray(cols, min, max));
 }
+
+import capy from 'lr5-capybaradev'
+
+console.log(capy.generateRandomArray());

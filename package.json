@@ -1,8 +1,8 @@
 {
   "name": "lr5-capybaradev",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "A utility library for generating random arrays and matrices.",
-  "main": "index.js",
+  "main": "assets/js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
